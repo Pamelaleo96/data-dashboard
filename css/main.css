@@ -80,9 +80,12 @@ a:hover { /*cambiar el background del texto*/
 }
 
 /*STYLE FOR THE SECTIONS GENERAL*/
-#overview {
+.overview {
     text-align: center;
     padding-top: 240px;
+}
+#overview {
+    display: block;
 }
 
 .enrollment {
@@ -98,11 +101,14 @@ a:hover { /*cambiar el background del texto*/
 
 /*--.....SECTION STUDENTS....*/
 
-section {
+/*section {
     outline: 2px solid red;
     width: 100%; 
+}*/
+.container1 {
+    outline: 1px solid purple;
+    padding-top: 220px;
 }
-
 nav {
     outline: 2px solid blue;
 }
@@ -191,6 +197,7 @@ input {
 }
 ul {
     padding: 0;
+    
 }
 #contenedor-frontend {
   outline: 1px solid red;
@@ -204,3 +211,6 @@ ul {
     margin: 7px;
 }
 
+#container1 {
+    display: none;
+}
