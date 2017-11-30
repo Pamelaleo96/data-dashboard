@@ -10,20 +10,6 @@ body {
     background-color: rgb(250, 250, 250);
 }
 
-/*Coloca los div en inline block para la seccion 1 y la ultima*/
-.firstSection {
-    display: inline-block;
-    background-color: white;
-    width: 370px;
-    height: 320px; 
-    margin-right: 36px;
-    margin-bottom: 90px;
-    text-align: left;
-}
-.contentFirst {
-
-}
-
 /*STYLE FOR THE HEADER*/
 header {
     /*outline: 1px solid red;*/
@@ -59,6 +45,7 @@ ul {
     list-style: none;
     margin: 0 6px 0 90px;
     overflow: auto; /*devuelve su contexto de bloque y asi alvergue los eleemntos li flotando*/  
+    /*text-align: left;*/
 }
 
 li {
@@ -91,13 +78,198 @@ a:hover { /*cambiar el background del texto*/
 
 .enrollment {
     margin: 25px;
-    
 }
 /*FIRST SECTION*/
+/*Coloca los div en inline block para la seccion 1 y la ultima*/
+h3 {
+    margin-bottom: 25px;
+}
 
-/*div {
+h2 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 2px;
+}
+
+.firstSection {
     display: inline-block;
-    width: 33%;
+    background-color: white;
+    width: auto;
+    height: auto; /*320px*/
+    margin-right: 36px;
+    margin-bottom: 90px;
+    text-align: left;
+}
+
+.secondSection {
+    display: inline-block;
+    background-color: white;
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-bottom: 90px;
+}
+
+.contentScore { /*Contenido de las secciones debajo de cada puntaje*/
+    height: 62px;
+    width: 156px;
+    background: rgb(235, 235, 235);
+    float:left;    
+    text-align: center;
+    margin-right: 5px;
+}
+.contentSkill {
+    height: 62px;
+    width: 214px;
+    background: rgb(235, 235, 235);
+    float:left;    
+    margin-right: 5px;
+    text-align: center;
+}
+.contentScore, .contentSkill span {
+    font-size:0.6rem;
+}
+
+/*Estilo para los diagrmas*/
+.graphic {
+    /*outline: 1px solid yellow;*/
+    margin-top: 25px;
+    width: 326px;
+    height: 190px;
+}
+.skillGraphic {
+    margin-top: 25px;
+    width: 660px;
+    height: 342px;
+    margin-right: 50px;;
+}
+.skillPastel {
+    width: 310px;
+    height: 263px;
+    margin: 60px;
+}
+/*-------------------------------------*/
+
+/*--.....SECTION STUDENTS....*/
+
+/*section {
+    outline: 2px solid red;
+    width: 100%; 
+}*/
+.container1 {
+    outline: 1px solid purple;
+    padding-top: 220px;
+}
+
+nav ul {
+    outline: 1 px solid black;
+    list-style: none;
+    display:  inline-block;
+    
+
+}
+.navcontainer a {
+    outline: 1px solid red;
+    text-decoration: none;
+}
+.navcontainer {
+    outline: 1px solid black;
+    
+}
+
+.con-opc li a{
+    outline: 1px solid black;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    margin-right: 15px;
+    text-align: none ;
+}
+.con-opc {
+    outline: 1px solid black;
+    display: inline-block;
+    padding: 0;
+    margin-left: 15px;
+    
+}
+.con-opc li {
+  outline: 1px solid brown;
+  list-style: none;
+  margin: 7px;
+  font-size: 20px;
+
+}
+h2 {
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.opciones {
+    outline: 1px solid green;
+    display: inline-block;
+    width: 25%;
+    margin-left:90px;
+    background: #fff;
+    
+}
+
+.container2 {
+    outline: 1px solid black;
+    /*display: inline-block;*/
+    width: 60%;
+    margin-right: 60px;
+    float: right;
+   
+    
+}
+.input {
+    outline: 1px solid blue;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+input {
+    width: 100%;
+    height: 30px;
+    
+}
+.con-ul li {
+    outline: 1px solid red;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+ .con-frontend {
+    outline: 1px solid purple;
+    float: left;
+    width: 30%;
+    margin: 5px;
+    
+}
+ul {
+    padding: 0;
+    
+}
+#contenedor-frontend {
+  outline: 1px solid red;
+   background: #fff;
+   width: 95%;
+   margin-left: 10px;
+}
+.con-frontend li {
+    display: inline-block;
+    outline: 1px solid black;
+    margin: 7px;
+}
+
+#container1 {
+    display: none;
+}
+/*#options-menu {
+    display: none;
 }*/
 
 /*--.....SECTION STUDENTS....*/
