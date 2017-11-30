@@ -43,11 +43,12 @@ header #logo {
 }
 
 /*STYLE FOR THE NAV*/
-nav {
+#sectionNav {
     background-color: rgb(201, 201, 201);
+    outline: 2px solid blue;
 }
 
-nav #sectionSede {
+#sectionNav #sectionSede {
     /*outline: 1px solid yellow;*/
     text-align: left;
     padding: 20px 0 20px 90px;
@@ -109,9 +110,7 @@ a:hover { /*cambiar el background del texto*/
     outline: 1px solid purple;
     padding-top: 220px;
 }
-nav {
-    outline: 2px solid blue;
-}
+
 nav ul {
     outline: 1 px solid black;
     list-style: none;
@@ -214,3 +213,8 @@ ul {
 #container1 {
     display: none;
 }
+#options-menu {
+    display: none;
+}
+
+
